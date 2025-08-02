@@ -1,5 +1,5 @@
-const CLIENT_ID = "561429028603-1qtqv89hg7uteq3fdoi5tsh1g586dnm6.apps.googleusercontent.com"; 
-const API_KEY = "AIzaSyByMOfSiaMzhZRhka1MJykE3Ie12vo63_c";
+const CLIENT_ID = ""; 
+const API_KEY = "";
 const DISCOVERY_DOCS = ['https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest'];
 const SCOPES = "https://www.googleapis.com/auth/youtube.readonly";
 
@@ -102,3 +102,4 @@ channelForm.onsubmit = function(event) {
   const channelName = channelInput.value;
   getUserChannels(channelName);
 };
+
